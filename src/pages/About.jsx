@@ -1,13 +1,13 @@
 
 import React from "react";
 
-import AboutHero from "../sections/about/AboutHero";
-import WhoWeAre from "../sections/about/WhoWeAre";
-import CompanyJourney from "../sections/about/CompanyJourney";
+import AboutHero from "../sections/About/AboutHero.jsx";
+import WhoWeAre from "../sections/About/WhoWeAre.jsx";
+import CompanyJourney from "../sections/About/CompanyJourney.jsx";
 
-import WhatWeDo from "../sections/about/WhatWeDo";
-import WhyReffto from "../sections/about/WhyReffto";
-import LeadershipMessage from "../sections/about/LeadershipMessage";
+import WhatWeDo from "../sections/About/WhatWeDo.jsx";
+import WhyReffto from "../sections/About/WhyReffto.jsx";
+import LeadershipMessage from "../sections/About/LeadershipMessage.jsx";
 
 const About = () => {
   return (
@@ -15,8 +15,8 @@ const About = () => {
       <AboutHero />
       <WhoWeAre />
       <CompanyJourney />
-     
-     <LeadershipMessage />
+
+      <LeadershipMessage />
       <WhatWeDo />
       <WhyReffto />
     </main>
